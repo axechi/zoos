@@ -1,10 +1,9 @@
-
 nav#main-nav {
-    background-color: rgb(203, 189, 251); 
+    background-color: #efe58fea; 
 }
 
 #main-nav > a {
-    background-color: #e3dcd6e9;
+    background-color: #efedb5e9;
     display: inline-block;
     padding: 1em; 
     font-size: 1.5rem;
@@ -12,9 +11,19 @@ nav#main-nav {
     transition: all ease-in-out;
 }
 #main-nav > a:hover {
-    color:rgb(251, 251, 253);
-    background-color: rgb(222, 183, 190);
+    color:rgb(254, 255, 222);
+    background-color: rgb(187, 174, 133);
 }
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(124, 124, 85);
   }
+  h1 {background-color: rgb(245, 240, 192);}
+  
+  #main-nav
+   {display:flex; 
+    justify-content: center;
+}
+
+body {background-color: rgb(255, 253, 214);}
+
+img {border: #d9d483e9;}
